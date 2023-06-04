@@ -1,4 +1,5 @@
 body {
+     font-family: sans-serif;
      display: flex;
      flex-direction: column;
      margin: 0;
@@ -23,13 +24,11 @@ ul {
 
 .header {
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
      align-items: center;
      background-color: #1F2937;
      color: white;
      font-size: 28px;
-     padding-left: 270px;
-     padding-right: 270px;
 }
 
 
@@ -54,7 +53,7 @@ ul {
      font-size: 48px;
 }
 
-button {
+.first-button {
      border-radius: 5px;
      width: 150px; 
      height: 50px;   
@@ -62,6 +61,8 @@ button {
      border-radius: 10px; 
      color: white;
      background-color: #3882F6;
+     border: 3px solid #1F2937;
+     font-weight: 800;
 }
 
 .title-sc {
@@ -69,6 +70,7 @@ button {
      font-weight: 900;
      text-align: center;
      padding: 52px;
+     color: #1F2937;
 }
 
 .box {
@@ -82,6 +84,7 @@ button {
 .third-part {
      display: flex;
      flex-direction: column;
+     margin: 10px;
 }
 
 .content {
@@ -102,4 +105,71 @@ button {
      text-align: center;
      width: 200px;
      margin: 10px;
+     color: #1F2937;
+}
+
+.quote-part {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 330px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 280px;
+     gap: 10px;
+     color: #1F2937;
+}
+
+.quote {
+     font-size: 46px;
+}
+
+.author {
+     font-size: 30px;
+     font-weight: 900;
+     align-self: flex-end;
+}
+
+.last-section {
+     width: 1300px;
+     height: 100px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 150px;
+     border-radius: 15px;
+     background-color: #3882F6;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 60px;
+     color: white;
+}
+
+.second-button {
+     border-radius: 5px;
+     width: 170px; 
+     height: 50px;   
+     margin-top: 5px;
+     border-radius: 10px; 
+     color: white;
+     background-color: #3882F6;
+     border: 3px solid white;
+     font-weight: 800;
+}
+
+.bold-text {
+     font-weight: 900;
+     font-size: 30px;
+     padding-bottom: 5px;
+}
+
+.footer {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: auto;
+     background-color: #1F2937;
+     color: white;
+     padding: 60px;
 }
